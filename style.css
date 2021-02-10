@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.content{
+    background-color: beige;
+    width: 380px;
+    height: 450px;
+    margin-left: 385px;
+    margin-top: 102px;
+    border-radius: 15px 82px 15px 15px;
+    box-shadow: -1px 3px 15px 4px grey;
+    position: relative;
+}
+
+.content img{
+    position: absolute; 
+    width: 345px;
+    height: 335px;
+    margin-top: -135px;
+    padding-left: -17px;
+    margin-left: 145px;
+    transform: matrix(-0.93, -0.36, -0.36, 0.93, 0, 0);
+}
+
+.content .shoes-name p{
+    padding-top: 146px;
+    padding-left: 55px;
+    font-size: 20px;
+    color: grey;
+}
+
+.content .shoes-name h1{
+    padding-top: 5px;
+    padding-left: 55px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.content .shoes-name span {
+    margin-left: 290px;
+    font-weight: bolder;
+    font-size: 15px;
+     
+}
+
+.colors p{
+    padding-left: 30px;
+    padding-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: grey;
+}
+ .colors form{
+     display: flex;
+ }
+ .colors .green{
+    width: 20px;
+    height: 20px;
+    background-color: #acd43b;
+    border-radius: 50%;
+    margin-left: 30px;
+     margin-top: 10px;
+ 
+ }
+ .colors .red{
+     width: 20px;
+     height: 20px;
+     background-color: #ff3838;
+     border-radius: 50%;
+     margin-left: 60px;
+     margin-top: -20px;
+   }
+ 
+   .colors .blue{
+     width: 20px;
+     height: 20px;
+     background-color:   #3864ff;
+
+     border-radius: 50%;
+     margin-left: 90px;
+     margin-top: -20px;
+   }
+
+
+
+   .colors > div:hover,
+   .sizes > div:hover,
+   .button {
+     cursor: pointer;
+   }
+
+
+
+
+.sizes p{
+    font-family: 'Montserrat', sans-serif;
+    color: grey;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+.sizes .size1{
+    height: 20px;
+    width: 20px;
+    border-radius: 6px;
+    margin-top: 15px;
+    background-color: white;
+    margin-left: 30px;
+}
+.sizes .size1 p{
+    color: black;
+    font-size: 14px;
+    padding-left: 3px;
+    padding-top: 2px;
+}
+
+.sizes .size2{
+    height: 20px;
+    width: 20px;
+    border-radius: 6px;
+    margin-top: -20px;
+    background-color: white;
+    margin-left: 60px;
+
+}
+.sizes .size2 p{
+    color: black;
+    font-size: 14px;
+    padding-left: 1px;
+    padding-top: 2px;
+}
+
+.sizes .size3{
+    height: 20px;
+    width: 20px;
+    border-radius: 6px;
+    margin-top: -20px;
+    background-color: white;
+    margin-left: 90px;
+}
+.sizes .size3 p{
+    color: black;
+    font-size: 14px;
+    padding-left: 2px;
+    padding-top: 2px;
+}
+
+.sizes .size4{
+    height: 20px;
+    width: 20px;
+    border-radius: 6px;
+    margin-top: -20px;
+    background-color: white;
+    margin-left: 120px;
+}
+.sizes .size4 p{
+    color: black;
+    font-size: 14px;
+    padding-left: 1px;
+    padding-top: 2px;
+}
+
+.sizes > div:hover {
+    background-color: #ff3838;
+    color: white;
+  }
+
+.buy{
+    height: 80px;
+    width: 57px;
+    background-color: #ff3838;
+    margin-left: 290px;
+    margin-top: -80px;
+    border-radius: 11px;
+    display: flex;
+    flex-direction: column;
+}
+
+.buy svg{
+padding-left: 15px;
+padding-top: 9px;
+}
+
